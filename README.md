@@ -1,4 +1,4 @@
-please a user in database with email and password. it will be consider as superadmin. then log in and do so.
+please enter a user in database with email and password first. it will be consider as superadmin. then log in and do so.
 use $2y$10$y3yHFbM1Wyjp77Ftdhd7ReOLDP21aINHefFCpQeTKm5OlJ8Ck/nW2 as password which is decrepted as 123456789
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
