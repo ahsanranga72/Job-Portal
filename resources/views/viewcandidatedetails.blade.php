@@ -31,7 +31,7 @@
       <div class="w3-third">
         <div class="w3-white w3-text-grey w3-card-4">
           <div class="w3-display-container">
-            <img src="Images/{{$cv['image']}}" style="width:100%" alt="profile.jpg">
+            <img src="../Images/{{$cv['image']}}" style="width:100%" alt="profile.jpg">
             <div class="w3-display-bottomleft w3-container w3-text-black">
               <h2>{{ $cv['first_name'] }}&nbsp{{ $cv['last_name'] }}</h2>
             </div>
@@ -169,8 +169,10 @@
     <!-- End Page Container -->
   </div>
 </div>
-<button type="button" class="btn btn-block btn-primary btn-lg print" onClick="window.print();return false">Print or Download</button>
 <br>
+
+@endsection
+@push('scripts')
 <script>
   $(document).ready(function() {
     //Not Exist Work Hide
@@ -244,5 +246,4 @@
     }
   })
 </script>
-@endsection
-<script src="plugins/jquery/jquery.min.js"></script>
+@endpush
